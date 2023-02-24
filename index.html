@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
     <title>World Clock - Christine Jones</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,23 +15,31 @@
 
       <select>
         <option value="">Select a city..</option>
-        <option value="london">London</option>
-        <option value="new-york">New York</option>
+        <option value="london">London 🇬🇧 </option>
+        <option value="new-york">New York 🇺🇸 </option>
 
-        <option value="paris">Paris</option>
+        <option value="paris">Paris 🇫🇷 </option>
       </select>
 
-      <div class="city">
+      <div class="city" id="madrid">
         <div>
-          <h2>Madrid</h2>
+          <h2>Madrid 🇪🇸 </h2>
           <div class="date">24th February 2023</div>
         </div>
         <div class="time">20:02:10 <small>PM</small></div>
       </div>
     
-    <div class="city">
+    <div class="city" id="lisbon">
         <div>
-          <h2>Madrid</h2>
+          <h2>Lisbon 🇵🇹 </h2>
+          <div class="date">24th February 2023</div>
+        </div>
+        <div class="time">20:02:10 <small>PM</small></div>
+      </div>
+
+      <div class="city" id="london">
+        <div>
+          <h2>London 🇬🇧 </h2>
           <div class="date">24th February 2023</div>
         </div>
         <div class="time">20:02:10 <small>PM</small></div>
